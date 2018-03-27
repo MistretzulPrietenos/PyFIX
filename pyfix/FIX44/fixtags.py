@@ -980,6 +980,7 @@ def repeatingGroupIdentifiers():
         NoNested3PartySubIDs : [Nested3PartySubID, Nested3PartySubIDType],
         NoPartyIDs : [PartyID, PartyIDSource, PartyRole, NoPartySubIDs],
         NoPartySubIDs : [PartySubID, PartySubIDType],
+        NoMDEntries : [MDEntryType, MDEntryPx, Currency, MDEntrySize, MDEntryDate, MDEntryTime, TickDirection, MDMkt, TradingSessionID, TradingSessionSubID, QuoteCondition, TradeCondition, MDEntryOriginator, LocationID, DeskID, OpenCloseSettlFlag, TimeInForce, ExpireDate, ExpireTime, MinQty, ExecInst, SellerDays, OrderID, QuoteEntryID, MDEntryBuyer, MDEntrySeller, NumberOfOrders, MDEntryPositionNo, Scope, PriceDelta, Text, EncodedTextLen, EncodedText],
         NoPosAmt : [PosAmtType, PosAmt],
         NoPositions : [PosType, LongQty, ShortQty, PosQtyStatus],
         NoDlvyInst : [SettlInstSource, DlvyInstType, NoSettlPartyIDs],
